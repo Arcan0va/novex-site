@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Novex™ Heliora Feather</title>
+  <title>Novex™ Heliora - Feather</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>Novex™ Heliora Feather</h1>
+    <div class="logo">
+      <h1>Novex™</h1>
+      <p>Heliora | Feather</p>
+    </div>
     <nav>
       <a href="#editions">Éditions</a>
       <a href="#features">Features</a>
@@ -17,33 +21,56 @@
     </nav>
   </header>
 
+  <!-- HERO -->
   <section id="hero">
-    <h2>Lite & Core — choisissez votre style</h2>
-    <p>La souris gaming sans compromis. Rapide, stable et personnalisable.</p>
-  </section>
-
-  <section id="editions">
-    <h2>Éditions</h2>
-    <div class="edition-grid">
-      <div class="edition fire">Fire Edition 🔥</div>
-      <div class="edition ice">Ice Edition ❄️</div>
-      <div class="edition void">Void Edition 🌌</div>
-      <div class="edition yingyang">YingYang Edition ⚫⚪</div>
-      <div class="edition arca">Arca Edition 🟣 (Limité)</div>
+    <h2>Feather — La souris gaming ultime</h2>
+    <p>Légère, stable, modulable. Choisissez votre style : <strong>Lite</strong> ou <strong>Core</strong>.</p>
+    <div class="cta-buttons">
+      <a href="#editions" class="btn">Voir les éditions</a>
+      <a href="#contact" class="btn btn-secondary">Précommander</a>
     </div>
   </section>
 
+  <!-- ÉDITIONS -->
+  <section id="editions">
+    <h2>Éditions disponibles</h2>
+    <div class="edition-grid">
+      <div class="edition fire">
+        <h3>Fire Edition</h3>
+        <p>Rouge orangé, style agressif et puissant.</p>
+      </div>
+      <div class="edition ice">
+        <h3>Ice Edition</h3>
+        <p>Blanc profond + bleu, pour une vibe glaciale et élégante.</p>
+      </div>
+      <div class="edition void">
+        <h3>Void Edition</h3>
+        <p>Noir profond avec étoiles, pour un style cosmique.</p>
+      </div>
+      <div class="edition yingyang">
+        <h3>YingYang Edition</h3>
+        <p>Noir et blanc, avec dégradé aquarelle subtil.</p>
+      </div>
+      <div class="edition arca">
+        <h3>Arca Edition</h3>
+        <p>Édition limitée (5 ex.), console / signature stylisée.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
   <section id="features">
-    <h2>Features</h2>
+    <h2>Features Heliora Feather</h2>
     <ul>
-      <li>Lite : 600 mAh, léger, rapide</li>
-      <li>Core : 800 mAh, stable, poids avant inclus</li>
-      <li>Profils internes sans logiciel</li>
-      <li>Dongle intelligent pour jouer et charger</li>
-      <li>Boutons DPI / RGB / ON-OFF</li>
+      <li><strong>Lite :</strong> Batterie 600 mAh, légère et rapide.</li>
+      <li><strong>Core :</strong> Batterie 800 mAh, poids avant inclus, stable et durable.</li>
+      <li>Profils internes pour DPI / RGB / ON-OFF.</li>
+      <li>Dongle intelligent : jouer et charger simultanément.</li>
+      <li>Design ergonomique avec repose-pouce obligatoire.</li>
     </ul>
   </section>
 
+  <!-- PRECOMMANDE -->
   <section id="contact">
     <h2>Précommande</h2>
     <form>
@@ -59,12 +86,18 @@
         <option value="yingyang">YingYang</option>
         <option value="arca">Arca</option>
       </select>
+      <label>Version :</label>
+      <select name="version">
+        <option value="lite">Lite (600 mAh)</option>
+        <option value="core">Core (800 mAh + poids)</option>
+      </select>
       <button type="submit">Envoyer</button>
     </form>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2026 Novex™ Heliora. Tous droits réservés.</p>
+    <p>&copy; 2026 Novex™. Heliora Feather. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
